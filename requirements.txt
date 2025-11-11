@@ -7,6 +7,3 @@ langchain-google-genai==2.1.5
 faiss-cpu
 pypdf
 beautifulsoup4
-
-# --- This print statement is AFTER the magic command ---
-print(f"Wrote requirements.txt to {REPO_PATH}/requirements.txt")

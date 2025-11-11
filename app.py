@@ -134,7 +134,3 @@ if prompt := st.chat_input("Ask a question (e.g., 'What is the policy on harassm
     
     # Add AI response to chat history
     st.session_state.messages.append({"role": "assistant", "content": full_response})
-
-# --- This print statement is AFTER the magic command ---
-print(f"Wrote app.py to {REPO_PATH}/app.py")
-print("\nSection 3.0 complete.")
